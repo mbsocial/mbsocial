@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://mbsocial.github.io',
-	base: '/mbsocial/',
+	base: '/mbsocial',
 	integrations: [mdx(), sitemap()],
 });
